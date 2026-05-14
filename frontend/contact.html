@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact GradeIn">
+        <meta name="keywords" content="GradeIn, contact, email, phone, address">
+        <meta name="author" content="Alf Joensuu">
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <link rel = "stylesheet" href="assets/css/main.css">
+        <title>Contact GradeIn</title>
+        <script src="assets/js/contact.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="assets/images/logo.png" alt="GradeIn logo">
+            </a>
+        </header>
+        <main>
+            <h1>Contact GradeIn</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input class="input" type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input class="input" type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea class="input" cols="40" rows="5" id="message" name="message" required></textarea>
+                <button class="button" type="submit">Send Message</button>
+            </form>
